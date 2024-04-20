@@ -3,9 +3,9 @@ public class App {
     public static void main(String[] args) {
         Library library = new Library();
 
-        Book book1 = new Book("To Kill a Mockingbird", "Harper Lee", 1960);
-        PrintedBook book2 = new PrintedBook("1984", "George Orwell", 1949, 328);
-        Book book3 = new Book("The Great Gatsby", "F. Scott Fitzgerald", 1925);
+        Book book1 = new Book("Great Expectations", "Charles Dickens", 1861);
+        PrintedBook book2 = new PrintedBook("The Time Machine", "H.G. Wells", 1895, 118);
+        Book book3 = new Book("Tom Sawyer", "Mark Twain", 1876);
 
         library.addBook(book1);
         library.addBook(book2);
@@ -15,4 +15,4 @@ public class App {
     }
 }
 
-// by Sahar Alselwi
+// Sahar Alselwi
